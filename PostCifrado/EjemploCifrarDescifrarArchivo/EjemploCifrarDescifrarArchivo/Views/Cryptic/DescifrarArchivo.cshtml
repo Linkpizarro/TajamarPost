@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "DescifrarArchivo";
+}
+
+<h2>DescifrarArchivo</h2>
+@using (Html.BeginForm("DescifrarArchivo", "Cryptic", FormMethod.Post, new { @enctype = "multipart/form-data " }))
+{
+    <div class="form-group">
+        <label class="control-label">Clave Privada</label>
+        <input type="password" name="privada" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Nombre Arhivo</label>
+        <input type="text" name="archivo" class="form-control" />
+    </div>
+    <div class="form-group">
+        <button type="submit">DesCifrar</button>
+    </div>
+}
+<div class="form-group">
+    <label class="control-label">Texto Descifrado</label>
+    <textarea name="texto" class="form-control">@ViewBag.Text</textarea>
+</div>

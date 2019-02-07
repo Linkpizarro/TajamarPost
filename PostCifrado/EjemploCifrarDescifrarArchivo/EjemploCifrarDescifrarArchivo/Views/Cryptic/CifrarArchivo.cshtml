@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Cifrar";
+}
+
+<h2>Crear y Cifrar un Archivo</h2>
+@using (Html.BeginForm("CifrarArchivo", "Cryptic", FormMethod.Post))
+{
+    <div class="form-group">
+        <label class="control-label">Texto a cifrar</label>
+        <textarea name="texto" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Clave Pública</label>
+        <input type="password" name="publica" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Clave Privada</label>
+        <input type="password" name="privada" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Nombre Arhivo</label>
+        <input type="text" name="archivo" class="form-control" />
+    </div>
+    <div class="form-group">
+        <button type="submit">Cifrar</button>
+    </div>
+
+}
+
+
