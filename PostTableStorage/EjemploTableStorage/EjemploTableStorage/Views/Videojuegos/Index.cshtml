@@ -1,0 +1,53 @@
+﻿@model IEnumerable<EjemploTableStorage.Models.Videojuego>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Añadir Videojuego", "Create")
+</p>
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Estudio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdVideojuego)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estudio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdVideojuego)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { partition = item.PartitionKey, row = item.RowKey }) |
+                    @Html.ActionLink("Detalles", "Details", new { partition = item.PartitionKey, row = item.RowKey }) |
+                    @Html.ActionLink("Eliminar", "Delete", new { partition = item.PartitionKey, row = item.RowKey })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+else{
+    <h4>No hay Videojuegos...</h4>
+}

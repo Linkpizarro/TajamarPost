@@ -1,0 +1,82 @@
+﻿@model EjemploTableStorage.Models.Videojuego
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Videojuego</h4>
+    <hr />
+    <dl class="dl-horizontal">     
+        <dt>
+            @Html.DisplayNameFor(model => model.Estudio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estudio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdVideojuego)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdVideojuego)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Creador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Creador)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaLanzamiento)
+        </dt>
+
+        <dd>
+            @Model.FechaLanzamiento.ToString("dd/MM/yyy")
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio) €
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categorias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categorias)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { partition = Model.PartitionKey,row = Model.RowKey }) |
+    @Html.ActionLink("Volver", "Index")
+</p>
