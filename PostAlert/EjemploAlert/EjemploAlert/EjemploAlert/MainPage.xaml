@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EjemploAlert"
+             x:Class="EjemploAlert.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Margin="0,40,0,0">
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+                <Label Text="Registro" 
+               HorizontalOptions="Center"
+               Font="40"
+               TextColor="Black"
+               />
+                <Button x:Name="info"
+                   Text="i"
+                   TextColor="White"
+                   Margin="0,5,0,20"
+                   BackgroundColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="18"
+                   WidthRequest="30"
+                   HeightRequest="30"
+                   BorderRadius="40"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand"
+                         Margin="0,20,0,20">
+                <Entry x:Name="name"
+                        Placeholder="Nombre"
+                        HorizontalOptions="Start"
+                        WidthRequest="150"/>
+                <Entry x:Name="surname"
+                       HorizontalOptions="End"
+                       Placeholder="Apellido"
+                       WidthRequest="150"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand"
+                         Margin="0,20,0,20">
+                <Button x:Name="sex"
+                        Text="Seleccione un Sexo"
+                        HorizontalOptions="Start" 
+                        TextColor="White"
+                        BackgroundColor="Black"
+                        WidthRequest="150"/>
+                <Entry x:Name="age"
+                       HorizontalOptions="End"
+                       Placeholder="Edad"
+                       WidthRequest="150"
+                       Keyboard="Telephone"
+                       MaxLength="2"/>
+            </StackLayout>
+            <Button x:Name="terms"
+                    Text="Condiciones de uso"
+                    HorizontalOptions="CenterAndExpand" 
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    WidthRequest="150"
+                    Margin="0,20,0,20"/>
+            <Button x:Name="register"
+                    Text="Registrar"
+                    HorizontalOptions="CenterAndExpand" 
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    WidthRequest="300"
+                    Margin="0,20,0,20"/>
+            <Label x:Name="result"
+                   TextColor="Green"
+                   Margin="0,20,0,20"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="35"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

@@ -1,0 +1,13 @@
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\bin\Debug\netstandard2.0\EjemploAlert.deps.json
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\bin\Debug\netstandard2.0\EjemploAlert.dll
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\bin\Debug\netstandard2.0\EjemploAlert.pdb
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\EjemploAlert.csprojAssemblyReference.cache
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\EjemploAlert.csproj.CoreCompileInputs.cache
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\EjemploAlert.AssemblyInfoInputs.cache
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\EjemploAlert.AssemblyInfo.cs
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\EjemploAlert.dll
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\EjemploAlert.pdb
+C:\Xamarin\EjemploAlert\EjemploAlert\EjemploAlert\obj\Debug\netstandard2.0\Info.xaml.g.cs
