@@ -556,11 +556,10 @@
   },
   "libraries": {
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
@@ -608,7 +607,6 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
@@ -715,20 +713,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\": {}
+    "C:\\Users\\PiZaRRoW\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Xamarin\\EjemploAlert\\EjemploAlert\\EjemploAlert.iOS\\EjemploAlert.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\PiZaRRoW\\Desktop\\TajamarPost\\PostAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert.iOS\\EjemploAlert.iOS.csproj",
       "projectName": "EjemploAlert.iOS",
-      "projectPath": "C:\\Xamarin\\EjemploAlert\\EjemploAlert\\EjemploAlert.iOS\\EjemploAlert.iOS.csproj",
-      "packagesPath": "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\",
-      "outputPath": "C:\\Xamarin\\EjemploAlert\\EjemploAlert\\EjemploAlert.iOS\\obj\\",
+      "projectPath": "C:\\Users\\PiZaRRoW\\Desktop\\TajamarPost\\PostAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert.iOS\\EjemploAlert.iOS.csproj",
+      "packagesPath": "C:\\Users\\PiZaRRoW\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PiZaRRoW\\Desktop\\TajamarPost\\PostAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\AlumnoMCSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PiZaRRoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -741,8 +739,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Xamarin\\EjemploAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert.csproj": {
-              "projectPath": "C:\\Xamarin\\EjemploAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert.csproj"
+            "C:\\Users\\PiZaRRoW\\Desktop\\TajamarPost\\PostAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert.csproj": {
+              "projectPath": "C:\\Users\\PiZaRRoW\\Desktop\\TajamarPost\\PostAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert\\EjemploAlert.csproj"
             }
           }
         }
